@@ -279,7 +279,7 @@ function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-slate-800/80 border border-slate-700/60 text-cyan-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-8 uppercase tracking-widest">
           <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full animate-pulse" />
-          Agencia tecnológica B2B · Quito, Ecuador
+          Agencia tecnológica · Quito, Ecuador
         </div>
 
         {/* Headline */}
