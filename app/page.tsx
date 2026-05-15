@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import {
   Database,
   Globe,
@@ -185,12 +186,17 @@ function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rotate-45 rounded-md bg-gradient-to-br from-cyan-400 to-violet-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-             <Layers size={14} className="text-white -rotate-45" />
-          </div>
-          <span className="font-bold text-white text-lg tracking-tight">
-           Lumina
+        <a href="#" className="flex items-center gap-3 group">
+          <Image
+            src="/LogoLumina.png"
+            alt="Lumina"
+            width={36}
+            height={36}
+            className="h-9 w-auto object-contain"
+            priority
+          />
+          <span className="font-extralight text-white text-xl tracking-[0.25em] uppercase">
+            Lumina
           </span>
         </a>
 
@@ -702,14 +708,18 @@ function Footer() {
   return (
     <footer className="bg-slate-950 border-t border-slate-800/60 py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <div className="w-6 h-6 rounded-md bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center">
-            <Zap size={12} className="text-white" />
-          </div>
-          <span className="text-slate-400 text-sm font-semibold">
+        <a href="#" className="flex items-center gap-2">
+          <Image
+            src="/LogoLumina.png"
+            alt="Lumina"
+            width={24}
+            height={24}
+            className="h-6 w-auto object-contain opacity-70"
+          />
+          <span className="font-extralight text-slate-400 text-sm tracking-[0.25em] uppercase">
             Lumina
           </span>
-        </div>
+        </a>
         <p className="text-slate-600 text-xs text-center">
           © {new Date().getFullYear()} Lumina · Quito, Ecuador · Digitalizando PyMEs
         </p>
