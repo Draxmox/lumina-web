@@ -115,7 +115,7 @@ const TEAM = [
 
 // ─── Componentes auxiliares ───────────────────────────────────────────────────
 
-function AnimatedCounter({ target, suffix = "" }) {
+function AnimatedCounter({ target, suffix = "" }: { target: any, suffix?: any }) {
   const [count, setCount] = useState(0);
   const ref = useRef(null);
   const started = useRef(false);
