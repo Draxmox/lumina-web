@@ -185,11 +185,11 @@ function Navbar() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
-            <Zap size={16} className="text-white" />
+          <div className="w-8 h-8 rounded-lg border border-cyan-400 flex items-center justify-center">
+             <span className="text-cyan-400 font-bold text-sm tracking-tight">L</span>
           </div>
           <span className="font-bold text-white text-lg tracking-tight">
-            Lumi<span className="text-cyan-400">na</span>
+           Lumina
           </span>
         </a>
 
@@ -706,7 +706,7 @@ function Footer() {
             <Zap size={12} className="text-white" />
           </div>
           <span className="text-slate-400 text-sm font-semibold">
-            Lumi<span className="text-cyan-400">na</span>
+            Lumina
           </span>
         </div>
         <p className="text-slate-600 text-xs text-center">
