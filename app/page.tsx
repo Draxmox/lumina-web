@@ -71,6 +71,12 @@ const TEAM = [
   },
   {
     name: "Valeria Molina", role: "Developer · Ing. de Software",
+    focus: "Desarrollo de FrontEnd y Diseño Web",
+    skills: ["React & Next.js", "Tailwind CSS", "TypeScript", "Three.js / Experiencias 3D", "Web Optimization"],
+    icon: Code2,
+  },
+  {
+    name: "David Panchi", role: "Especialista en Chatbots · Ing. Automatización y Robotica",
     focus: "Automatización de conversaciones y WhatsApp Business",
     skills: ["WhatsApp Business API", "LLM Integrations", "RAG Pipelines", "N8N", "CRM Integration"],
     icon: BrainCircuit,
